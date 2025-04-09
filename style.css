@@ -24,11 +24,16 @@ body {
   padding: 25px;
 }
 
-.pfp,
-.role {
+.pfp {
   border-radius: 50%;
-  margin: 20px;
-  color: hsl(0, 2%, 74%);
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.role {
+    margin: 20px;
+    color: #cbcbc9;
 }
 
 #location {
@@ -36,16 +41,17 @@ body {
 }
 
 .buttons > * {
+  display: block;
+  background-color: #333;
   color: white;
-  margin-top: 1rem;
-  padding: 15px 20px;
-  text-align: center;
-  border-radius: 10px;
-  width: 300px;
-  background-color: #444;
-  box-shadow: 0 0 0 transparent;
+  padding: 10px;
+  margin: 6px 0; /* Reduce margin between buttons */
+  border-radius: 8px;
   text-decoration: none;
+  font-size: 0.9rem;
+  width: 300px;
   font-weight: 600;
+  text-align: center;
 }
 
 .buttons > a:hover {
