@@ -8,6 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: "Poppins", sans-serif;
 }
 
 .box > div {
@@ -32,4 +33,17 @@ body {
 
 #location {
   color: hsl(75, 94%, 57%);
+}
+
+.buttons > * {
+  color: white;
+  margin-top: 1rem;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #444;
+  box-shadow: 0 0 0 transparent;
+  text-decoration: none;
+  font-weight: 600;
 }
